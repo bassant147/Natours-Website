@@ -1,0 +1,44 @@
+.footer {
+  padding: 25rem 0 10rem 0;
+  background-color: $color-grey-dark-3;
+  position: relative;
+
+  &__logo-box {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &__link {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: $color-white;
+    padding-top: 2rem;
+
+    &:not(:last-child) {
+      padding-right: 1.5rem;
+    }
+  }
+
+  &__left {
+    float: left;
+    margin-top: 2rem;
+    
+    border-top: 1px solid $color-grey-dark;
+  }
+
+  &__right {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    font-size: 1.4rem;
+    border-top: 1px solid $color-grey-dark;
+    color: $color-white;
+    float: right;
+    width: 80%;
+    
+  }
+}
+
